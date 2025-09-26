@@ -1,0 +1,209 @@
+
+.previous {
+	bottom: .5rem;
+	display: flex;
+	column-gap: 10rem;
+	position: absolute;
+	left:50%;
+	transform: translateX(-50%);
+	color: greenyellow;
+	z-index: 1;
+}
+
+.previous button {
+  font-size: 30px;
+  color: white;
+  background-color: white;
+  border: none;
+
+}
+
+.carousel {
+	margin:auto;
+	position: relative;
+	align-content: center;
+	align-self: center;
+  width: 500px;
+  height: 600px;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.carousel-images{
+	display: flex;
+  margine:auto;
+  flex: 1 0 100%;
+  width: 500px;
+  height: 500px;
+  list-style-type: none;
+  background: green;
+  margin: 0;
+  padding: 0;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel img {
+  object-fit: cover;
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  padding: 100 px;
+  background-color: white;
+}
+
+
+
+.row::after{
+	content:"";
+	clear:both;
+  display:table;
+}
+
+.column {
+  float: left;
+  width:50%;
+}
+
+.column2 {
+  float: left;
+  width:50%;
+  padding-inline: 500px;
+}
+
+some{
+	font-family: "arial";
+	font-weight: bold;
+	font-size: 14px;
+	
+}
+
+some2{
+	font-family: "arial";
+	font-weight: bold;
+	font-size: 14px;
+}
+
+}
+h1 {
+	font-family: "arial";
+	font-size: 14px;
+	letter-spacing: 10.2rem;
+	text-align: center;
+	color: darkred;
+}
+
+
+
+h2 {
+	font-family: "arial";
+	font-size: 10px;
+	letter-spacing: 0.76rem;
+	text-align: center;
+	color: darkred;
+}
+
+new{
+	font-family: "arial";
+	font-size: 12px;
+	letter-spacing: .2rem;
+	color: black;
+	display: inline-block;
+	text-align: left;
+	align-content: center;
+	width: 300px;
+}
+
+body {
+	background-color: white;
+	font-family: "arial";
+	font-size: 12px;
+	letter-spacing: .2rem;
+	color: black;
+	text-align: center;
+	align-content: center;
+	background-repeat: no-repeat;
+}
+
+p{
+	align-content: right;
+	font-family: arial;
+}
+
+a 
+{
+	text-decoration: none;
+  font-family: "arial";
+	font-size: 15px;
+	letter-spacing: .2rem;
+	color: black;
+
+}
+
+img{
+	align-content: center;
+}
+
+.hide {
+  display: none;
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+  color: red;
+}
+
+}
+
+table {
+	text-decoration: special;
+	text-align: right;
+	font-size: 15px;
+	border-spacing: 5px;
+	color: darkred;
+}
+
+td {
+	position: static;
+	text-align: right;
+	align-content: center;
+	vertical-align: center;
+	font-family: "arial";
+	padding: 3px;
+	color:darkred;
+}
+	
+td:hover {
+	font-weight: bold;
+	text-decoration: underline;
+
+}
+table1 {
+	text-align: center;
+	font-size: 15px;
+	border-spacing: 5px;
+	border-color: green;
+	align-content: center;
+	color: darkred;
+}
+
+te {
+	border: 1px;
+	border-color: green;
+	align-content: center;
+	padding: 0px;
+	text-align: center;
+	position: static;
+}
+
+te:hover {
+	text-emphasis-color: black;
+	text-decoration: underline dotted;
+}
+
+place {
+	margin-top: 100px;
+}
+
+
+	
