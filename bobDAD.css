@@ -211,8 +211,9 @@ h1 {
 .aboutbox {
 	width: 75%;
     height: 75%;
-    border: 2px solid blue;
     padding: 10px;
+	align-content: center;
+	text-align: left;
     margin: 10px;
 	
 }
@@ -221,7 +222,7 @@ about{
 	font-family: "arial";
 	font-size: 14px;
 	font-style: none !important;
-	letter-spacing: 0.75rem !important;
+	letter-spacing: 0.15rem !important;
 	text-align: left !important;
 	color: black;
 }
@@ -351,6 +352,7 @@ place {
 	margin-top: 100px;
 }
 	
+
 
 
 
