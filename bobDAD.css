@@ -254,6 +254,20 @@ a
 
 }
 
+.yas {
+	text-decoration: none;
+  font-family: "arial";
+	font-size: 15px;
+	letter-spacing: .2rem;
+	color: black;
+}
+
+.yas:hover {
+	text-decoration: underline
+}
+
+
+
 img{
 	align-content: center;
 }
@@ -319,4 +333,5 @@ place {
 	margin-top: 100px;
 }
 	
+
 
