@@ -276,8 +276,8 @@ a
 .yas {
 	text-decoration: none;
   font-family: "arial";
-	font-size: 15px;
-	letter-spacing: .2rem;
+	font-size: 13px;
+	letter-spacing: .15rem;
 	color: black;
 }
 
@@ -352,6 +352,7 @@ place {
 	margin-top: 100px;
 }
 	
+
 
 
 
